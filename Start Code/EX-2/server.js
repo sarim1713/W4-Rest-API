@@ -1,8 +1,4 @@
-import express from 'express';
-import { articles } from './models/data';
-
-const app = express();
-
+import app from './app.js';
 const PORT = 3000;
 
 // app.get('/', (req, res) => {
